@@ -1,0 +1,14 @@
+
+{% for Expense in app1 %}
+<tr>
+    <td>{{ Expense.purpose }}</td>
+    <td>{{ Expense.amount }}</td>
+    <td>{{ Expense.date }}</td>
+</tr>
+{{ form }} 
+
+{% endfor %}
+
+
+
+
